@@ -98,7 +98,7 @@ PuzzleState* Puzzle::getState(){
 //    int n = out->_d.getSize();
     //int(out->_score/1.2);
 //    xx = 0.9;//double(out->_score) / (n*n*n);
-    printf("初试分数：%d\n",out->_score);
+    printf("初始分数：%d\n",out->_score);
     out->uuid.hash[0] =_d->hash();
     out->uuid.hash[1] = out->_score;
     out->_dir = UNKOWN;
